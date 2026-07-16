@@ -184,7 +184,7 @@ D  = √(ΔX² + ΔY²)
 
 ```bash
 git clone https://github.com/kolyaspr/geokolyas_geodesy_calc.git
-cd geokolyas_geodesy_calc
+cd geokolyas_geodesy_calc/app
 ```
 
 Если репозиторий будет создан под другим аккаунтом, замените ссылку на свою.
@@ -211,6 +211,7 @@ flutter devices
 
 ```bash
 flutter run -d emulator-5554
+flutter run
 ```
 
 Если идентификатор эмулятора другой, возьмите его из вывода команды `flutter devices`.
